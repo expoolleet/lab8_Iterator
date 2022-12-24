@@ -7,7 +7,7 @@ namespace lab8_Iterator.Menus
     {
         private List<MenuItem> _items = new List<MenuItem>();
 
-        public List<MenuItem> getItems()
+        public List<MenuItem> GetItems()
         {
             return _items;
         }

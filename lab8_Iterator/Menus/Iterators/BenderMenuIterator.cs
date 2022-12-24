@@ -13,14 +13,14 @@
 
         public override MenuItem Current()
         {
-            return _menu.getItems()[_position];
+            return _menu.GetItems()[_position];
         }
 
         public override bool MoveNext()
         {
-            int updatedPosition = ++_position;
+            int updatedPosition = _position + 1;
 
-            if (updatedPosition >= 0 && updatedPosition < _menu.getItems().Length)
+            if (updatedPosition >= 0 && updatedPosition < _menu.GetItems().Length)
             {
                 _position = updatedPosition;
                 return true;

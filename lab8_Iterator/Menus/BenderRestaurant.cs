@@ -9,7 +9,7 @@ namespace lab8_Iterator.Menus
 
         private int length = 0;
 
-        public MenuItem[] getItems()
+        public MenuItem[] GetItems()
         {
             return _items;
         }
